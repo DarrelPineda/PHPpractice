@@ -1,4 +1,4 @@
-<!--hello world!
+<!--hello world! 
 
 
 
@@ -30,7 +30,7 @@
 
 
 
-<?php
+<?php 
 
 // echo "Hello World!"
 
@@ -38,9 +38,9 @@
 
 
 
-/* echo "Hello World!"
+/* echo "Hello World!" 
 
- echo "Hello World!"
+ echo "Hello World!" 
 
  */
 
@@ -66,13 +66,13 @@
 
   <!-- <h1>This my first PHP page!!!!</h1> -->
 
-  <?php
+  <?php 
 
   // echo "Hello World!";
 
 
 
-  //variable
+  //variable 
 
   // $a = 5;
 
@@ -90,7 +90,7 @@
 
   // var_dump(null);
 
- 
+  
 
   // variable scope
 
@@ -98,7 +98,7 @@
 
 
 
- 
+  
 
 
 
@@ -200,7 +200,7 @@
 
   // $name = "<h1 style='color:$a'>John Doe";
 
- 
+  
 
   // $name = "John Doe";
 
@@ -224,7 +224,7 @@
 
   // echo print_r(explode("o", $name), "<br>");
 
- 
+  
 
   // $x = "Hello World!";
 
@@ -248,13 +248,13 @@
 
   // echo substr($x, -5,2), "<br>";
 
- 
+  
 
   // $x = "John \" POGI \"Doe";
 
   // echo $x;
 
- 
+  
 
 // $a = -1; //int
 
@@ -492,12 +492,12 @@
 //  //echo _no3,"<br>";
 
 //   function test(){
-   
+    
 //     echo _no1;
 //   }
- 
+  
 // test();
- 
+  
 //php operators
 //arik
   //sum
@@ -505,7 +505,7 @@
 //   //sub
 // echo 6 - 5 - 10,"<br>";
 // echo 6 - 2 + 10,"<br>"; //PEMDAS
-// //multi
+// //multi 
 // echo 6 * 6 * 6,"<br>";
 // //div
 // echo 10 / 5,"<br>";
@@ -530,7 +530,7 @@
 // ==
 // var_dump(6 == "6");
 // echo "<br>";
-// // ===
+// // === 
 // var_dump(6 === "6");
 // echo "<br>";
 // // !=
@@ -617,7 +617,7 @@
         ?>
 <html>
 <body>
-   
+    
 <!-- <h1>Students</h1>
 <ul>
     <?php foreach($students as $student){ ?>
@@ -626,14 +626,14 @@
 </ul>-->
 
 
-  <?php
+  <?php 
             $username = "";
 
             $error_messages = [];
 
             if(isset($_REQUEST['btnSubmit'])){
                 $username = $_REQUEST['username'];
-               
+                
                 if($_REQUEST['username'] == ""){
                     array_push($error_messages, "Username is required!");
                 }
@@ -646,12 +646,12 @@
 
         <!-- get send data thru url -->
         <!-- post send data thru http request -->
-        <?php
+        <?php 
             if(!empty($error_messages)){
                 foreach($error_messages as $error){
                     echo $error ."<br>";
                 }
-            }    
+            }     
         ?>
         <form action="php_practice.php" method="get">
             <label for="">Username:</label>
@@ -661,14 +661,17 @@
             <input type="password" name="password">
             <br>
             <input type="submit" value="Login" name="btnSubmit">
+            <br>
+            <label for="">Username:</label>
+            <input type="text" name="username" value="<?php echo $username; ?>">
         </form>
-   
+    
 </html>
 <body>
 
- 
+  
 
- 
+  
 
 </body>
 

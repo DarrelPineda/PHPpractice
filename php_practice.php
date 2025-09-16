@@ -1,262 +1,489 @@
-<!-- Hello World!
+<!--hello world!
+
+
 
 <h1>Hello World!</h1>
 
+
+
 <style>
-    h1 {
-        color:blue;
-    }
+
+  h1{
+
+    color: blue;
+
+
+
+  }
+
 </style>
 
+
+
 <script>
-    alert("Hello World!")
-</script> -->
+
+  alert("Hello World!")
+
+</script>
+
+-->
+
+
 
 <?php
-   //echo "Hello World!";
-   #echo "Hello World!";
+
+// echo "Hello World!"
+
+# echo "Hello World!"
 
 
-    /*echo "Hello World!";
-      echo "Hello World!";
-    */
+
+/* echo "Hello World!"
+
+ echo "Hello World!"
+
+ */
+
 ?>
 
 
+
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+
 </head>
+
 <body>
-<!-- <h1>This is my first PHP page</h1> -->
-<?php
-// echo "Hello World!";
 
-// variable
+  <!-- <h1>This my first PHP page!!!!</h1> -->
 
-//    $a = 5;
-//    var_dump($a);
+  <?php
 
-//    var_dump("John");
-//    var_dump(3.14);
-//    var_dump(true);
-//    var_dump([1,2,3,4,5]);
-//    var_dump(null);
+  // echo "Hello World!";
 
 
-//variable scope
 
-// $a = 5;
-// //echo $a;
+  //variable
 
-// function test()
-// {
-// static $a = 6;  
-// echo $a;
-// echo "<br>";
-// $a++;
-// }
+  // $a = 5;
 
-// // test(); //6
-// // test(); //6
-//  test(); //6
-//  test(); //7
+  // var_dump($a);
 
 
-//echo $a;
-   
-//echo & print
 
-// echo ("Hello! <br>"), ("World! <br>");
-// echo "Hello! <br>", "World! <br>";
-// print ("Hello! <br>");
-// print "Hello! <br>";
-// echo print("Hi!");
+  // var_dump("John");
 
-// Data Types
-// $a = "John"; //String
-// $b = 5; // Integer
-// $c = 3.14; //float
-// $d = true; //boolean
-// $e = [1,2,3]; //array
-// $f = new stdClass(); //object
-// $g = null; //null
-// $h = fopen("php_practice.php", "r"); //resource
+  // var_dump(3.14);
 
-// var_dump($a);
-// echo "<br>";
-// var_dump($b);
-// echo "<br>";
-// var_dump($c);
-// echo "<br>";
-// var_dump($d);
-// echo "<br>";
-// var_dump($e);
-// echo "<br>";
-// var_dump($f);
-// echo "<br>";
-// var_dump($g);
-// echo "<br>";
-// var_dump($h);
-// echo "<br>";
+  // var_dump(true);
 
-// strings
-// $a = "blue";
-// $name = "<h1 style='color:$a'>John Doe";
-//
+  // var_dump([1,2,3]);
 
-//  $name = "John Doe";
+  // var_dump(null);
 
-// echo strlen($name), "<br>";
-// echo str_word_count($name), "<br>";
-// echo strpos($name, "Doe"), "<br>";
-// echo strtoupper($name), "<br>";
-// echo strtolower($name), "<br>";
-// echo str_replace(" Doe","Cruz",$name), "<br>";
-// echo strrev($name), "<br>";
-// echo trim($name), "<br>";
-// echo print_r(explode("o",$name), "<br>");
+ 
 
-// $x = "Hello";
-// $y = "World!";
-// echo $x ." ". $y . "<br>";
-// echo "$x $y <br>";
-// echo '$x $y <br>';
+  // variable scope
 
-// $x = "Hello";
-// echo substr($x, 1, 4), "<br>";
-// echo substr($x, 1, ), "<br>";
-// echo substr($x, -5, 2), "<br>";
+  // $a = 5;
 
-// $a = "sample";
-// $x = "John \"Pogi\" Doe";
-// echo $x;
 
-// $a = -1;
-// $b = 1.0;
-// $c = "5";
+
+ 
+
+
+
+  // function test()
+
+  // {
+
+  //  static $a = 6;
+
+  //  echo $a;
+
+  //  echo "<br>";
+
+  //  $a++;
+
+  // }
+
+  // test();
+
+  // test();
+
+  // echo $a;
+
+
+
+  // echo & print
+
+
+
+  // echo ("Hello! <br>"), ("Hello! <br>");
+
+  // echo "world! <br> ", "world! <br> ";
+
+  // print ("Hello! <br>");
+
+  // print "Hello! <br> ";  
+
+  // echo print("Hi")
+
+
+
+  // Data Types
+
+  // $a = "John";
+
+  // $b = 5;
+
+  // $c = 3.14;
+
+  // $d = true;
+
+  // $e = [1,2,3];
+
+  // $f = new stdClass();
+
+  // $g = null;
+
+  // $h = fopen("php_practice.php", "r");
+
+
+
+  // var_dump($a);
+
+  // echo "<br>";
+
+  // var_dump($b);
+
+  // echo "<br>";
+
+  // var_dump($c);
+
+  // echo "<br>";
+
+  // var_dump($d);
+
+  // echo "<br>";
+
+  // var_dump($e);
+
+  // echo "<br>";
+
+  // var_dump($f);
+
+  // echo "<br>";
+
+  // var_dump($g);
+
+  // echo "<br>";
+
+  // var_dump($h);
+
+  // echo "<br>";
+
+
+
+  // strings
+
+  // $a = "blue";
+
+  // $name = "<h1 style='color:$a'>John Doe";
+
+ 
+
+  // $name = "John Doe";
+
+
+
+  // echo strlen($name), "<br>";
+
+  // echo str_word_count($name), "<br>";
+
+  // echo strpos($name, "Doe"), "<br>";
+
+  // echo strtoupper($name), "<br>";
+
+  // echo strtolower($name), "<br>";
+
+  // echo str_replace("Doe", "Cruz",$name), "<br>";
+
+  // echo strrev($name), "<br>";
+
+  // echo trim($name), "<br>";
+
+  // echo print_r(explode("o", $name), "<br>");
+
+ 
+
+  // $x = "Hello World!";
+
+  // $y = "World Of The Rims";
+
+  // echo $x . " ". $y . "<br>";
+
+  // echo "$x $y" . "<br>";
+
+  // echo '$x $y' . "<br>";
+
+
+
+  //Slicing
+
+  // $x = "Hello";
+
+  // echo substr($x, 1,4,), "<br>";
+
+  // echo substr($x, 1), "<br>";
+
+  // echo substr($x, -5,2), "<br>";
+
+ 
+
+  // $x = "John \" POGI \"Doe";
+
+  // echo $x;
+
+ 
+
+// $a = -1; //int
+
+// $b = 1.0; //float
+
+// $c = "5 eggs"; //string
+
+
 
 // echo PHP_INT_MAX, "<br>";
+
 // echo PHP_INT_MIN, "<br>";
+
 // echo PHP_INT_SIZE, "<br>";
+
 // echo is_int($c);
 
-// echo PHP_FLOAT_MAX, "<br>";
+
+
 // echo PHP_FLOAT_MIN, "<br>";
+
+// echo PHP_FLOAT_MAX, "<br>";
+
 // echo PHP_FLOAT_DIG, "<br>";
+
 // echo PHP_FLOAT_EPSILON, "<br>";
+
 // echo is_float($b), "<br>";
 
-// echo is_numeric($a);
-
-// $a = "John"; //String
-// $b = 5; // Integer
-// $c = 3.14; //float
-// $d = true; //boolean
-// $e = [1,2,3]; //array
-// $f = new stdClass(); //object
-// $g = null; //null
-// $h = fopen("php_practice.php", "r"); //resource
-
-// ccasting - string
-// $a = (string) $a;
-// $b = (string) $b;
-// $c = (string) $c;
-// $d = (string) $d;
-// $e =  $e;
-// $f =  $f;
-// $g = (string) $g;
-// $h = (string) $h;
-
-// casting - integer
-// $a = (int) $a;
-// $b = (int) $b;
-// $c = (int) $c;
-// $d = (int) $d;
-// $e = (int)$e;
-// $f = $f;
-// $g = (int) $g;
-// $h = (int) $h;
-
-// casting - float
-// $a = (float) $a;
-// $b = (float) $b;
-// $c = (float) $c;
-// $d = (float) $d;
-// $e = (float) $e;
-// $f = $f;
-// $g = (float) $g;
-// $h = (float) $h;
-
-// casting - boolean
-// $a = (bool) $a;
-// $b = (bool) $b;
-// $c = (bool) $c;
-// $d = (bool) $d;
-// $e = (bool) $e;
-// $f = (bool)$f;
-// $g = (bool) $g;
-// $h = (bool) $h;
-
-//casting-array
-// $a = (array) $a;
-// $b = (array) $b;
-// $c = (array) $c;
-// $d = (array) $d;
-// $e = (array) $e;
-// $f = (array)$f;
-// $g = (array) $g;
-// $h = (array) $h;
 
 
 
-// var_dump($a);
-// echo "<br>";
-// var_dump($b);
-// echo "<br>";
-// var_dump($c);
-// echo "<br>";
-// var_dump($d);
-// echo "<br>";
-// var_dump($e);
-// echo "<br>";
-// var_dump($f);
-// echo "<br>";
-// var_dump($g);
-// echo "<br>";
-// var_dump($h);
-// echo "<br>";
+
+ // Data Types
+
+  $a = "5 John";
+
+  $b = 5;
+
+  $c = 3.14;
+
+  $d = true;
+
+  $e = [1,2,3];
+
+  $f = new stdClass();
+
+  $g = null;
+
+  $h = fopen("php_practice.php", "r");
 
 
 
-// php math
-// $pi = pi();
-// echo $pi, "<br>";
+  //casting - string
 
-// $minNumber = min(300, 80, 4, 98, 3);
-// $maxNumber = max(300, 80, 4, 98, 3);
+  // $a = (string) $a;
+
+  // $b = (string) $b;
+
+  // $c = (string) $c;
+
+  // $d = (string) $d;
+
+  // $e = $e;
+
+  // $f = $f;
+
+  // $g = (string) $g;
+
+  // $h = (string) $h;
 
 
-// echo $minNumber, "<br>";
-// echo $maxNumber, "<br>";
 
-// $num = -5;
-// echo abs($num), "<br>";;
+  // casting - int
 
-// $sqrt = sqrt(9);
-// echo $sqrt, "<br>";
+  // $a = (int) $a;
 
-// $rounded = round(3.49);
-// echo $rounded, "<br>";
+  // $b = (int) $b;
 
-// echo rand(), "<br>";
+  // $c = (int) $c;
 
-// echo rand(5,30), "<br>";
+  // $d = (int) $d;
 
- //php constant
+  // $e = (int) $e;
+
+  // $f = $f;
+
+  // $g = (int) $g;
+
+  // $h = (int) $h;
+
+
+
+  // casting- float
+
+  // $a = (float) $a;
+
+  // $b = (float) $b;
+
+  // $c = (float) $c;
+
+  // $d = (float) $d;
+
+  // $e = (float) $e;
+
+  // $f = $f;
+
+  // $g = (float) $g;
+
+  // $h = (float) $h;
+
+
+
+  // casting - boolean
+
+  // $a = (boolean) $a;
+
+  // $b = (boolean) $b;
+
+  // $c = (boolean) $c;
+
+  // $d = (boolean) $d;
+
+  // $e = (boolean) $e;
+
+  // $f = $f;
+
+  // $g = (boolean) $g;
+
+  // $h = (boolean) $h;
+
+
+
+  // casting-array
+
+  // $a = (array) $a;
+
+  // $b = (array) $b;
+
+  // $c = (array) $c;
+
+  // $d = (array) $d;
+
+  // $e = (array) $e;
+
+  // $f = $f;
+
+  // $g = (array) $g;
+
+  // $h = (array) $h;
+
+
+
+  // casting - unsent
+
+  // $a = (null) $a;
+
+  // $b = (null) $b;
+
+  // $c = (null) $c;
+
+  // $d = (null) $d;
+
+  // $e = (null) $e;
+
+  // $f = $f;
+
+  // $g = (null) $g;
+
+  // $h = (null) $h;
+
+
+
+  //  var_dump($a);
+
+  // echo "<br>";
+
+  //  var_dump($b);
+
+  // echo "<br>";
+
+  //  var_dump($c);
+
+  // echo "<br>";
+
+  //  var_dump($d);
+
+  // echo "<br>";
+
+  //  var_dump($e);
+
+  // echo "<br>";
+
+  //  var_dump($f);
+
+  // echo "<br>";
+
+  //  var_dump($g);
+
+  // echo "<br>";
+
+  //  var_dump($h);
+
+  // echo "<br>";
+
+  // php math
+  // $pi = pi();
+  // echo $pi,"<br>";
+
+  // $minNumber = min(300, 80,98,3);
+  // $maxNumber = max(300, 80,98,3);
+  // echo $minNumber,"<br>";
+  // echo $maxNumber,"<br>";
+  // //
+  // $num = -5;
+  // echo abs($num), "<br>";
+  // //
+  // $sqrt = sqrt(3);
+  // echo $sqrt,"<br>";
+  // //
+  // $rounded = round(3.49,1);
+  // echo $rounded,"<br>";
+  // //
+  // echo $rounded,"<br>";
+  // echo rand(),"<br>";
+
+  // echo rand(5,30);
+
+  //php constant
 //   define("_no1","hello",);
 //   define("_no2",25,);
 //   define("_no3",[1,2,3],);
@@ -361,17 +588,88 @@
 // var_dump(!(6 == "6" xor 6 > 9)); // true
 // echo "<br>";
 
-// echo "Hello " . "World!<br>";
-
-// $x = "Hello";
-// $x = $x . " world";  
-// $x .= " World";      
-
+//string ope
+// echo "hello" . "world","<br>";
+// $x = "hello";
+// $x = $x . "world!";
+// $x .= "world";
 // echo $x;
 
+//TERNARY
+// $color =11 > 1O ? "MORE" :"LESS";
+// echo $color;
+
+//null
+// $age = $student ?? 20;
+// echo $age;
+
+// $students = array(
+//             array("name"=>"Mary","age"=>17,"gender"=>"Female"),
+//             array("name"=>"Joy","age"=>21,"gender"=>"Female"),
+//             array("name"=>"Ben","age"=>30,"gender"=>"Male"),
+//         );
+
+//         foreach($students as $student){
+//             foreach($student as $value){
+//                 echo $value;
+//             }
+  // }
+        ?>
+<html>
+<body>
+   
+<!-- <h1>Students</h1>
+<ul>
+    <?php foreach($students as $student){ ?>
+        <li>My name <?php echo $student['name']; ?> is age <?php echo $student['age'] ?> is and i am <?php echo $student['gender'] ?></li>
+    <?php } ?>
+</ul>-->
 
 
-?>
+  <?php
+            $username = "";
+
+            $error_messages = [];
+
+            if(isset($_REQUEST['btnSubmit'])){
+                $username = $_REQUEST['username'];
+               
+                if($_REQUEST['username'] == ""){
+                    array_push($error_messages, "Username is required!");
+                }
+
+                if($_REQUEST['password'] == ""){
+                    array_push($error_messages, "Password is required!");
+                }
+            }
+        ?>
+
+        <!-- get send data thru url -->
+        <!-- post send data thru http request -->
+        <?php
+            if(!empty($error_messages)){
+                foreach($error_messages as $error){
+                    echo $error ."<br>";
+                }
+            }    
+        ?>
+        <form action="php_practice.php" method="get">
+            <label for="">Username:</label>
+            <input type="text" name="username" value="<?php echo $username; ?>">
+            <br>    
+            <label for="">Password:</label>
+            <input type="password" name="password">
+            <br>
+            <input type="submit" value="Login" name="btnSubmit">
+        </form>
+   
+</html>
+<body>
+
+ 
+
+ 
 
 </body>
+
 </html>
